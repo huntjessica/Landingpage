@@ -86,7 +86,11 @@ div {
 
 
 .top-navigation {
-    background-color: #fff;
+background-color: #fff;
+position: fixed;
+width: 100%;
+border-bottom: 1px solid #DDD;
+z-index: 9999;
 }
 .top-navigation > .content {
     width: 970px;
@@ -167,8 +171,47 @@ color: white;
 font-size: 1.125rem;
 }
 
+.cases {
+background-color: #fff;
+overflow: hidden;
+padding-bottom: 5rem;
+}
 
+.cases h2 {
+font-size: 2.75rem;
+margin: 1.625rem 0 3.125rem;
+font-weight: 300;
+}
 
+.cases .content{ 
+  color: #1d1e21;
+text-align: center;
+}
+
+.cases .devices > li {
+width: 33.3333333%;
+float: left;
+}
+
+.social .icons > li {
+border-radius: 1.25rem;
+width: 2.5rem;
+height: 2.5rem;
+display: inline-block;
+margin: 1.25rem 5px;
+border: 1px solid #eaebec;
+padding: 0.625rem 0;
+text-align: center;
+}
+
+.fa {
+display: inline-block;
+font: normal normal normal 14px/1 FontAwesome;
+font-size: inherit;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
 
 
 
