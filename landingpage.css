@@ -142,14 +142,32 @@ margin-top: 1.25rem;
 font-size: 1.563rem;
 }
 
-.big-button {
-    text-shadow: none;
-    border-style: none;
-    border-radius: 4px;
-    padding: 16px 26px;
-    line-height: 1.33;
-   
 }
+
+.introduction .buttons {
+
+margin-top: 1.563rem;
+}
+
+.big-buttons{margin-top: 1.563rem; 
+color: white;
+text-align: center;
+}
+
+
+button {
+width: 9.688rem;
+background-color: #f15a29;
+border-color: #f15a29;
+text-shadow: none;
+border-style: none;
+border-radius: 4px;
+padding: 1rem 1.5rem;
+color: white;
+font-size: 1.125rem;
+}
+
+
 
 
 
