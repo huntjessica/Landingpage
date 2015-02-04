@@ -1,3 +1,12 @@
+/* Paul Irish Box-Sizing: Border-Box reset - apply a natural box layout model to all elements, but allowing components to change http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -52,8 +61,8 @@ table {
 
 
 body {
-    background-color: blue;
-    font-family: 'Roboto', sans-serif; 
+  
+  font-family: 'Roboto', sans-serif; 
   font-size: 16px; 
   color: #838994; 
   letter-spacing: 0.03em;
@@ -65,6 +74,17 @@ div {
 
 
 /* Navigation Section */
+
+.content{
+  text-align: center;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px; 
+  color: #838994; 
+  letter-spacing: 0.03em;
+  -webkit-font-smoothing: antialiased;
+}
+
+
 .top-navigation {
     background-color: #fff;
 }
@@ -72,6 +92,7 @@ div {
     width: 970px;
     height: 70px;
     margin: 0 auto;
+    padding: 0px 15px 
 }
 
 .top-navigation .links li {
@@ -86,7 +107,6 @@ div {
      
 }
 
-
 .top-navigation .links > .active {
     color: #4c5058;
     font-weight: 600;
@@ -94,19 +114,44 @@ div {
 
 .links{ 
   float: right;
-  
+}
+
+.top-navigation .logo{
+  height: 70px;
+  width: 30px;
+}
+
+.introduction {
+    background-image: url('img/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    background-position: center bottom;
+}
+
+.introduction h1 {
+  color: #fff;
+margin-top: 17.5rem;
+font-size: 3.125rem;
+}
+
+.introduction h3 {
+  color: #fff;
+margin-top: 1.25rem;
+font-size: 1.563rem;
+}
+
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+   
 }
 
 
-.content{
-  padding: 0px 15px 
-}
-
-.logo{
-
-height: 70px;
-width: 30px;
-}
 
 
 
